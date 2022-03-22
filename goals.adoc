@@ -11,7 +11,9 @@
 .. looking at mongo right now, but am flexible 
 . a middleware to convert data in the database to a traditional text file for Bind9
 .. Bind9 has a system like this, but only if you are running a blind master DNS server and a public secondary server. I have no intention of running two bind9 instances. A script to query the DB and formatting the data should not be too hard.
+
 .. The plan is that the script will write the file with a unique file name based on the date and time. Then the script will symlink those files to the master file location that Bind9 reads. This way all the changes will be stored and if something breaks a previous version of the file can be quickly entered.
+.. Include an easy way to back out changes by symlinking an older version of the file.
 . a method to respond to queriers of "what is my public IP"
 .. ICanHazIP.com is a public service offering this functionality, and I will make that an option, but I want a fully self contained option as well.
 . ssh - to let the clients update the DB
