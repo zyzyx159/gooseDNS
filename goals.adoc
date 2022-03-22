@@ -2,6 +2,8 @@
 
 . Single command deployment for both the server and clients
 .. Either all necessary components will be installed on a single image or defined in a docker compose file.
+. Minimal custom docker images.
+.. I want to pick up default images and run code against them, not manage my own images.
 
 == Server - VPS
 . Bind9 - the whole point of this program
