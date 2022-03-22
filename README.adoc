@@ -1,0 +1,24 @@
+= GooseDNS - A docker based, VPS hosted, private 'duckDNS' like service.
+
+== Why GooseDNS?
+There are plenty of free and paid Dynamic DNS services out there; DuckDNS.org is a great one, and the name sake of this project. Some will even let you use your own domain, though this is usually a paid option. In fact some domain registrars will let you use them as your DNS provider. So why Goose DNS?
+
+Control. With this system there is no possibility of vender lock in. I can use any VPS with a fixed IP and any registrar I can transfer to. This system is designed to be mobile, to quickly pick up and move to anywhere quick and easy. 
+
+== What do I need?
+. A domain
+. A fixed IP address
+.. This guide assumes you are renting a VPS with SSH access
+Docker and Docker compose
+. admin access to the client fire wall
+
+== What do I need to know to use GooseDNS?
+. SSH
+. Docker
+. Docker compose
+. How DNS works
+
+== What would be nice to know?
+. all of the above
+. bind9
+. database (to be determined)
