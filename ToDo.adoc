@@ -12,7 +12,8 @@
 .. query DB
 .. write a uniquely named file based on date and time
 .. symlink that file to BIND9 master files
-.. write a script to back out that change for speed and ease of use
+.. refresh bind
+.. write a script to back out changes for speed and ease of use
 . Figure out if the reverse proxy goes on the server or client
 .. goal here is minimal ports open on the client firewall
 .. thinking client at this point 
