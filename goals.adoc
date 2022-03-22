@@ -14,13 +14,11 @@
 .. ICanHazIP.com is a public service offering this functionality, and I will make that an option, but I want a fully self contained option as well.
 . ssh - to let the clients update the DB
 . a set up wizard for fast deployment
+. a single settings file for centralized control
 
 == Client - home machines
 . cron - on a timed basis the client should check its public IP 
 .. if the public IP has changed it will kick off an update command. It does not need to blindly phone home and make the server check.
 . an ssh cert to update the DB
 .. I want to handle security with a password-less SSH cert and minimal privileges to only update the DB
-
-== reverse proxy
-. I am not sure if the reverse proxy needs to live the server or the clients, but I need to figure this out.
-.. I want to open as few ports on the firewalls as possible. I think that if I put the reverse proxy on the client I will not need to open as many ports on the firewalls.
+. A settings file for centralized control.
