@@ -1,0 +1,22 @@
+= Stuff I need to do:
+
+. Pick a database
+.. I know SQL but non-SQL data bases are gaining popularity
+.. I can't start the middleware until I have this
+. Write database code
+.. create tables
+.. populate tables
+.. update queries API style
+
+. write a middleware that will query the DB and write the BIND9 text files
+.. query DB
+.. write a uniquely named file based on date and time
+.. symlink that file to BIND9 master files
+.. write a script to back out that change for speed and ease of use
+. Figure out if the reverse proxy goes on the server or client
+.. goal here is minimal ports open on the client firewall
+.. thinking client at this point 
+. understand sudo
+.. need to lock down what clients can do. Hoping to make a script for them to run.
+.. clients don't need write access to the DB, just access to a couple of scripts stored on the server controlled by group access
+. web based GUI to manage data in DB would be nice
