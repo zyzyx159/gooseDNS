@@ -13,7 +13,7 @@ services:
     ports:
       - 53:53[UDP]
       - 53:53[TCP]
-      - [[127.0.0.1:953]:953]
+      - "127.0.0.1:953:953"
     volumes:
       - config:/etc/bind
       - working:/var/cache/bind
