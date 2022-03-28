@@ -11,8 +11,8 @@ services:
   app:
     image: internetsystemsconsortium/bind9:9.18
     ports:
-      - 53:53/UDP
-      - 53:53/TCP
+      - 53/UDP:53/UDP
+      - 53/TCP:53/TCP
       - "127.0.0.1:953:953"
     volumes:
       - config:/etc/bind
