@@ -1,10 +1,9 @@
 == Stuff I need to do:
 
-. Write database code
-.. create tables
-.. populate tables
-.. update queries API style
-
+. Stand up BIND9 manually
+.. prove to self that you can and know what you are doing
+. Design database around the needed information
+.. Write database code to create tables
 . write a middleware that will query the DB and write the BIND9 text files
 .. query DB
 .. write a uniquely named file based on date and time
