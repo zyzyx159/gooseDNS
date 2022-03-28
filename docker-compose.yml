@@ -1,0 +1,20 @@
+version: '3'
+
+volumes:
+  #for bind9
+  config:
+  working:
+  zones:
+  log:
+
+services:
+  app:
+    image: internetsystemsconsortium/bind9:9.18
+    ports:
+      - 53:53
+      - 127.0.0.1:953:953/
+    volumes:
+      - config:/etc/bind
+      - working:/var/cache/bind
+      - zones:/var/lib/bind
+      - log:/var/log
