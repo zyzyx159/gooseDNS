@@ -1,8 +1,5 @@
-= Stuff I need to do:
+== Stuff I need to do:
 
-. Pick a database
-.. I know SQL but non-SQL data bases are gaining popularity
-.. I can't start the middleware until I have this
 . Write database code
 .. create tables
 .. populate tables
@@ -20,4 +17,9 @@
 . understand sudo
 .. need to lock down what clients can do. Hoping to make a script for them to run.
 .. clients don't need write access to the DB, just access to a couple of scripts stored on the server controlled by group access
-. web based GUI to manage data in DB would be nice
+. web based GUI to manage data in DB would be nice 
+
+== Stuff done
+
+. Picked database
+.. SQLite

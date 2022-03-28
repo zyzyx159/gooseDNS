@@ -19,6 +19,6 @@ Docker and Docker compose
 . How DNS works
 
 == What would be nice to know?
-. all of the above
-. bind9
-. database (to be determined)
+. All of the above
+. BIND9
+. SQLite
