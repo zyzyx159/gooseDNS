@@ -22,3 +22,5 @@
 
 . Picked database
 .. SQLite
+. Stood up Bind9 container and linked host DNS to it
+.. At present Bind9 is acting as a recursive DNS
