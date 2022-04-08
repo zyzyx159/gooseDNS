@@ -1,0 +1,28 @@
+= Replacing systemd-resolved
+
+== Systemd-resolved is usually sitting on port 53, and we need that for bind9. To remove it:
+. Edit /etc/systemd/resolved.conf as root
+. Uncomment (remove # from the front of the line) the DNS= line and the DNSStubListener= line.
+. Change the DNS= value in this file to the DNS server you want to use
+.. 127.0.0.1 to use a local proxy
+.. 1.1.1.1 to use the Cloudflare DNS 
+. Change the DNSStubListener= value from yes to no.
+. Create a symbolic link for /run/systemd/resolve/resolv.conf with /etc/resolv.conf as the destination:
+.. sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+. Reboot
+. Test your setup by pinging a web site
+. Most of this data came from https://www.linuxuprising.com/2020/07/ubuntu-how-to-free-up-port-53-used-by.html
+
+== Start up bind9
+. Go to your GooseDNS folder and start bind9
+.. Docker compose up
+. Get the IP address of the docker container
+.. Docker ps (for the container name)
+.. Docker inspect <container name> | grep IPAddress
+. Using the above instructions replace your DNS value with the IP of your Bind9 container.
+. Reboot 
+. Test again
+
+== catch and throw
+. This next part is more of a 'you problem'
+. Bind9 needs config files to know where your subdomains are and your servers need to be ready to listen.
