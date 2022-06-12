@@ -1,4 +1,4 @@
-version: '3'
+version: '4'
 
 volumes:
   #for bind9
@@ -6,6 +6,7 @@ volumes:
   working:
   zones:
   log:
+
 
 services:
   bind9:
@@ -16,7 +17,7 @@ services:
       - 53:53/udp
       - "127.0.0.1:953:953"
     volumes:
-      - config:/etc/bind
-      - working:/var/cache/bind
-      - zones:/var/lib/bind
-      - log:/var/log
+      - ./Bind9/config:/etc/bind
+      - ./Bind9/working:/var/cache/bind
+      - ./Bind9/zones:/var/lib/bind
+      - ./Bind9/log:/var/log
