@@ -1,3 +1,3 @@
 FROM internetsystemsconsortium/bind9
 
-COPY Bind9/config/named.conf /etc/bind
+COPY Bind9/config/named.conf /etc/bind/named.conf
