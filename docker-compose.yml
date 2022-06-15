@@ -1,13 +1,5 @@
 version: '4'
 
-volumes:
-  #for bind9
-  config:
-  working:
-  zones:
-  log:
-
-
 services:
   bind9:
     restart: always
