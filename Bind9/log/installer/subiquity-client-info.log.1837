@@ -1,0 +1,43 @@
+2022-06-13 03:29:34,387 INFO subiquity:125 Starting Subiquity revision 3359
+2022-06-13 03:29:34,387 INFO subiquity:126 Arguments passed: ['/snap/subiquity/3359/usr/bin/subiquity']
+2022-06-13 03:29:35,930 INFO subiquity/Serial:107 start: starting UI
+2022-06-13 03:29:35,930 INFO subiquity/Serial:112 finish: (skipped) SUCCESS
+2022-06-13 03:29:35,930 INFO subiquity/Welcome:107 start: starting UI
+2022-06-13 03:29:36,948 INFO subiquity/Welcome:112 finish: completed SUCCESS
+2022-06-13 03:29:36,948 INFO subiquity/Refresh:107 start: starting UI
+2022-06-13 03:29:40,650 INFO subiquity/Refresh:112 finish: completed SUCCESS
+2022-06-13 03:29:40,650 INFO subiquity/Keyboard:107 start: starting UI
+2022-06-13 03:29:42,358 INFO subiquity/Keyboard:112 finish: completed SUCCESS
+2022-06-13 03:29:42,358 INFO subiquity/Source:107 start: starting UI
+2022-06-13 03:29:44,163 INFO subiquity/Source:112 finish: completed SUCCESS
+2022-06-13 03:29:44,163 INFO subiquity/Zdev:107 start: starting UI
+2022-06-13 03:29:44,164 INFO subiquity/Zdev:112 finish: (skipped) SUCCESS
+2022-06-13 03:29:44,164 INFO subiquity/Network:107 start: starting UI
+2022-06-13 03:29:44,180 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /route_watch?routes=%5B2%5D HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,607 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /route_watch?routes=%5B%5D HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,642 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,643 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /route_watch?routes=%5B2%5D HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,644 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /route_watch?routes=%5B2%5D HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,646 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,647 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /route_watch?routes=%5B2%5D HTTP/1.1" 200 174 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:46,860 INFO subiquity/Network:112 finish: completed SUCCESS
+2022-06-13 03:29:46,860 INFO subiquity/Proxy:107 start: starting UI
+2022-06-13 03:29:47,911 INFO subiquity/Proxy:112 finish: completed SUCCESS
+2022-06-13 03:29:47,911 INFO subiquity/Mirror:107 start: starting UI
+2022-06-13 03:29:48,784 INFO subiquity/Mirror:112 finish: completed SUCCESS
+2022-06-13 03:29:48,785 INFO subiquity/Refresh:107 start: starting UI
+2022-06-13 03:29:48,787 INFO subiquity/Refresh:112 finish: (skipped) SUCCESS
+2022-06-13 03:29:48,787 INFO subiquity/Filesystem:107 start: starting UI
+2022-06-13 03:29:58,518 INFO subiquity/Filesystem:112 finish: completed SUCCESS
+2022-06-13 03:29:58,518 INFO subiquity/Identity:107 start: starting UI
+2022-06-13 03:30:01,823 INFO subiquity/Identity:107 start: starting UI
+2022-06-13 03:30:19,941 INFO subiquity/Identity:112 finish: completed SUCCESS
+2022-06-13 03:30:19,941 INFO subiquity/UbuntuAdvantage:107 start: starting UI
+2022-06-13 03:30:19,943 INFO subiquity/UbuntuAdvantage:112 finish: (skipped) SUCCESS
+2022-06-13 03:30:19,943 INFO subiquity/SSH:107 start: starting UI
+2022-06-13 03:30:25,588 INFO subiquity/SSH:112 finish: completed SUCCESS
+2022-06-13 03:30:25,588 INFO subiquity/Drivers:107 start: starting UI
+2022-06-13 03:30:31,038 INFO subiquity/Drivers:112 finish: completed SUCCESS
+2022-06-13 03:30:31,038 INFO subiquity/SnapList:107 start: starting UI
+2022-06-13 03:30:42,204 INFO subiquity/SnapList:112 finish: completed SUCCESS
+2022-06-13 03:30:42,204 INFO subiquity/Progress:107 start: starting UI

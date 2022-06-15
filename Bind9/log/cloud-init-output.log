@@ -1,0 +1,580 @@
+Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~22.04.5 running 'init-local' at Mon, 13 Jun 2022 03:41:38 +0000. Up 4.77 seconds.
+Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~22.04.5 running 'init' at Mon, 13 Jun 2022 03:41:40 +0000. Up 6.20 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 | True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:2289r7sFRrucbRICjHT9DPyAerUK5ykAshA57GZzQq8 root@template
+The key's randomart image is:
++---[RSA 3072]----+
+|oo      . .+     |
+|+o. .  . +. *    |
+|oo.o .  ..o. B.  |
+| *.o  . o o...+. |
+|o =    .S= o. =  |
+| E      .o+  + * |
+|        ...  .= +|
+|           .. o+ |
+|           .. +*.|
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub
+The key fingerprint is:
+SHA256:uqNDSb0GkBxmRBJgOqw/6oY//GQ8GbpLD3CqNKqILgA root@template
+The key's randomart image is:
++---[DSA 1024]----+
+|=**o             |
+|+++              |
+|o. . .           |
+|E.  o .          |
+|+ ...o .S        |
+|.= oooo.         |
+|++*.*..          |
+|O++B....         |
+|&++++o..         |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:wTGr91PIZfphd2ZnJxNRja7gWAf2vhRhcVxyKb+77Eo root@template
+The key's randomart image is:
++---[ECDSA 256]---+
+|        o   .o++*|
+|       . +o ooo=.|
+|        +. +oo+  |
+|       . oo=+ .o |
+|      . S++++o+ O|
+|       ....++o Oo|
+|          o..E  .|
+|           .o .. |
+|             .o+.|
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:FbdJ14QzyMXxNg0NNnysvLNzaaA9BvQdqXElBa6xoOs root@template
+The key's randomart image is:
++--[ED25519 256]--+
+|          ..o=X@o|
+|           +o*B+B|
+|          o +..B*|
+|         o o =o=.|
+|        S . + =..|
+|         . . +o. |
+|        .   + .o.|
+|       .   . +oo.|
+|        E   . oo |
++----[SHA256]-----+
+Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~22.04.5 running 'modules:config' at Mon, 13 Jun 2022 03:41:44 +0000. Up 10.37 seconds.
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~22.04.5 running 'modules:final' at Mon, 13 Jun 2022 03:41:45 +0000. Up 11.78 seconds.
+Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~22.04.5 finished at Mon, 13 Jun 2022 03:41:46 +0000. Datasource DataSourceNone.  Up 11.89 seconds
+2022-06-13 03:41:46,085 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 03:51:10 +0000. Up 4.07 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 03:51:12 +0000. Up 6.33 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 | True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 03:51:12,650 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'cdrom', 'dip', 'plugdev', 'sudo', 'adm', 'lxd'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 03:51:13 +0000. Up 7.33 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 03:51:13 +0000. Up 7.54 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 03:51:13 +0000. Datasource DataSourceNone.  Up 7.61 seconds
+2022-06-13 03:51:13,806 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 11:37:08 +0000. Up 4.12 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 11:37:10 +0000. Up 6.39 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 | True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 11:37:10,710 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'cdrom', 'dip', 'lxd', 'sudo', 'plugdev'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 11:37:11 +0000. Up 7.42 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 11:37:11 +0000. Up 7.63 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 11:37:11 +0000. Datasource DataSourceNone.  Up 7.69 seconds
+2022-06-13 11:37:11,890 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 11:54:20 +0000. Up 4.24 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 11:54:22 +0000. Up 6.07 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 11:54:22,389 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'plugdev', 'lxd', 'cdrom', 'adm', 'sudo', 'dip'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 11:54:25 +0000. Up 9.13 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 11:54:25 +0000. Up 9.41 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 11:54:25 +0000. Datasource DataSourceNone.  Up 9.48 seconds
+2022-06-13 11:54:25,681 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 11:56:14 +0000. Up 4.26 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 11:56:16 +0000. Up 5.97 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 11:56:16,291 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'dip', 'cdrom', 'plugdev', 'sudo', 'lxd'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 11:56:19 +0000. Up 9.07 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 11:56:19 +0000. Up 9.34 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 11:56:19 +0000. Datasource DataSourceNone.  Up 9.41 seconds
+2022-06-13 11:56:19,610 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 11:58:04 +0000. Up 4.26 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 11:58:06 +0000. Up 6.42 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 11:58:06,741 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'lxd', 'sudo', 'dip', 'adm', 'plugdev', 'cdrom'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 11:58:09 +0000. Up 9.55 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 11:58:09 +0000. Up 9.77 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 11:58:10 +0000. Datasource DataSourceNone.  Up 9.84 seconds
+2022-06-13 11:58:10,034 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:01:26 +0000. Up 4.24 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:01:28 +0000. Up 6.29 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:01:28,612 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'lxd', 'adm', 'dip', 'cdrom', 'sudo', 'plugdev'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:01:31 +0000. Up 9.46 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:01:31 +0000. Up 9.69 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:01:31 +0000. Datasource DataSourceNone.  Up 9.76 seconds
+2022-06-13 12:01:31,953 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:05:38 +0000. Up 4.23 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:05:40 +0000. Up 5.85 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   |   10.0.2.2  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: |   3   | 192.168.1.1 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:05:40,172 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'plugdev', 'cdrom', 'sudo', 'dip', 'lxd'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:05:43 +0000. Up 9.09 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:05:43 +0000. Up 9.34 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:05:43 +0000. Datasource DataSourceNone.  Up 9.41 seconds
+2022-06-13 12:05:43,604 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:06:30 +0000. Up 4.32 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:06:32 +0000. Up 6.45 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.56.101       | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++
+ci-info: +-------+--------------+---------+---------------+-----------+-------+
+ci-info: | Route | Destination  | Gateway |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+---------+---------------+-----------+-------+
+ci-info: |   0   | 192.168.56.0 | 0.0.0.0 | 255.255.255.0 |   enp0s3  |   U   |
+ci-info: +-------+--------------+---------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:06:32,776 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'dip', 'adm', 'sudo', 'cdrom', 'lxd', 'plugdev'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:06:35 +0000. Up 9.67 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:06:36 +0000. Up 9.89 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:06:36 +0000. Datasource DataSourceNone.  Up 9.96 seconds
+2022-06-13 12:06:36,157 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:07:21 +0000. Up 4.25 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:07:23 +0000. Up 6.39 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.56.101       | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++
+ci-info: +-------+--------------+---------+---------------+-----------+-------+
+ci-info: | Route | Destination  | Gateway |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+---------+---------------+-----------+-------+
+ci-info: |   0   | 192.168.56.0 | 0.0.0.0 | 255.255.255.0 |   enp0s3  |   U   |
+ci-info: +-------+--------------+---------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:07:23,701 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'dip', 'lxd', 'plugdev', 'cdrom', 'adm', 'sudo'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:07:26 +0000. Up 9.57 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:07:26 +0000. Up 9.81 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:07:27 +0000. Datasource DataSourceNone.  Up 9.88 seconds
+2022-06-13 12:07:27,073 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:09:05 +0000. Up 4.28 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:09:08 +0000. Up 7.63 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.1.100        | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   | 192.168.1.1 |   0.0.0.0   | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:09:08,943 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'plugdev', 'sudo', 'cdrom', 'dip', 'lxd'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:09:11 +0000. Up 10.74 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:09:12 +0000. Up 11.01 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:09:12 +0000. Datasource DataSourceNone.  Up 11.08 seconds
+2022-06-13 12:09:12,275 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:43:31 +0000. Up 4.26 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:43:32 +0000. Up 5.59 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.1.100        | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   | 192.168.1.1 |   0.0.0.0   | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:43:32,909 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'plugdev', 'cdrom', 'sudo', 'lxd', 'dip'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:43:35 +0000. Up 8.75 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:43:36 +0000. Up 9.01 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:43:36 +0000. Datasource DataSourceNone.  Up 9.08 seconds
+2022-06-13 12:43:36,277 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:50:29 +0000. Up 4.26 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:50:31 +0000. Up 6.23 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.1.100        | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   | 192.168.1.1 |   0.0.0.0   | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:50:31,550 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'dip', 'sudo', 'plugdev', 'lxd', 'cdrom'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:50:34 +0000. Up 9.46 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:50:34 +0000. Up 9.68 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:50:34 +0000. Datasource DataSourceNone.  Up 9.75 seconds
+2022-06-13 12:50:34,952 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:54:42 +0000. Up 4.24 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:54:43 +0000. Up 5.62 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.1.100        | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   | 192.168.1.1 |   0.0.0.0   | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:54:43,941 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'dip', 'adm', 'plugdev', 'cdrom', 'lxd', 'sudo'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:54:47 +0000. Up 8.96 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:54:47 +0000. Up 9.16 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:54:47 +0000. Datasource DataSourceNone.  Up 9.23 seconds
+2022-06-13 12:54:47,427 - cc_final_message.py[WARNING]: Used fallback datasource
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init-local' at Mon, 13 Jun 2022 12:56:24 +0000. Up 4.28 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'init' at Mon, 13 Jun 2022 12:56:26 +0000. Up 5.81 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |   Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: | enp0s3 |  True |        192.168.1.100        | 255.255.255.0 | global | 08:00:27:04:3f:6a |
+ci-info: | enp0s3 |  True | fe80::a00:27ff:fe04:3f6a/64 |       .       |  link  | 08:00:27:04:3f:6a |
+ci-info: | enp0s8 | False |              .              |       .       |   .    | 08:00:27:7e:75:da |
+ci-info: |   lo   |  True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   |  True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+-------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.1.1 |     0.0.0.0     |   enp0s3  |   UG  |
+ci-info: |   1   | 192.168.1.0 |   0.0.0.0   |  255.255.255.0  |   enp0s3  |   U   |
+ci-info: |   2   | 192.168.1.1 |   0.0.0.0   | 255.255.255.255 |   enp0s3  |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2022-06-13 12:56:26,136 - schema.py[WARNING]: Invalid cloud-config provided:
+users.0: {'gecos': 'daniel', 'groups': {'adm', 'dip', 'sudo', 'cdrom', 'lxd', 'plugdev'}, 'lock_passwd': False, 'name': 'zyzyx', 'passwd': '$6$fZMVhsP6.obPxeiV$G.kI5aP7UXav9TsWn2Kie6ag/20r4AdX8g30Zdwu69O5QqzH88C6DKEJRp07k8dL7vAn6IWDHLb.2fA2pKVaf1', 'shell': '/bin/bash'} is not valid under any of the given schemas
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:config' at Mon, 13 Jun 2022 12:56:29 +0000. Up 9.12 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 running 'modules:final' at Mon, 13 Jun 2022 12:56:29 +0000. Up 9.36 seconds.
+Cloud-init v. 22.2-0ubuntu1~22.04.1 finished at Mon, 13 Jun 2022 12:56:29 +0000. Datasource DataSourceNone.  Up 9.43 seconds
+2022-06-13 12:56:29,626 - cc_final_message.py[WARNING]: Used fallback datasource

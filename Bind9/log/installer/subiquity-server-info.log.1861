@@ -1,0 +1,78 @@
+2022-06-13 03:29:34,653 INFO subiquity:112 Starting Subiquity server revision 3359
+2022-06-13 03:29:34,653 INFO subiquity:113 Arguments passed: ['/snap/subiquity/3359/lib/python3.8/site-packages/subiquity/cmd/server.py']
+2022-06-13 03:29:35,413 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "GET /meta/status?cur=null HTTP/1.1" 200 419 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:35,815 INFO root:39 start: subiquity/apply_autoinstall_config: 
+2022-06-13 03:29:35,826 INFO root:39 finish: subiquity/apply_autoinstall_config: SUCCESS: 
+2022-06-13 03:29:35,827 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "cloud_init_ok": tr...
+2022-06-13 03:29:35,844 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "GET /meta/status?cur=%22CLOUD_INIT_WAIT%22 HTTP/1.1" 200 411 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:35,849 ERROR root:39 finish: subiquity/Refresh/check_for_update: FAIL: cancelled
+2022-06-13 03:29:35,859 INFO root:39 start: subiquity/Meta/client_variant_GET: 
+2022-06-13 03:29:35,859 INFO root:39 finish: subiquity/Meta/client_variant_GET: SUCCESS: 200 "server"
+2022-06-13 03:29:35,867 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "GET /meta/client_variant HTTP/1.1" 200 193 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:35,868 INFO root:39 start: subiquity/Meta/status_GET: 
+2022-06-13 03:29:35,868 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "cloud_init_ok": tr...
+2022-06-13 03:29:35,876 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "GET /meta/status?cur=null HTTP/1.1" 200 411 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:35,876 INFO root:39 start: subiquity/Meta/client_variant_POST: 
+2022-06-13 03:29:35,929 INFO root:39 finish: subiquity/Meta/client_variant_POST: SUCCESS: 200 null
+2022-06-13 03:29:35,932 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "POST /meta/client_variant?variant=%22server%22 HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:35,932 INFO root:39 start: subiquity/Meta/status_GET: 
+2022-06-13 03:29:35,938 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "GET /locale HTTP/1.1" 200 194 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:36,215 INFO curtin:1322 Validating extracted storage config components
+2022-06-13 03:29:36,948 INFO aiohttp.access:233  [13/Jun/2022:03:29:36 +0000] "POST /locale HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:36,949 INFO aiohttp.access:233  [13/Jun/2022:03:29:36 +0000] "GET /refresh HTTP/1.1" 200 281 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:40,666 INFO aiohttp.access:233  [13/Jun/2022:03:29:40 +0000] "GET /keyboard HTTP/1.1" 200 41537 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:42,355 INFO aiohttp.access:233  [13/Jun/2022:03:29:42 +0000] "GET /keyboard/needs_toggle?layout_code=%22us%22&variant_code=%22%22 HTTP/1.1" 200 190 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:42,357 INFO aiohttp.access:233  [13/Jun/2022:03:29:42 +0000] "POST /keyboard HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:42,359 INFO aiohttp.access:233  [13/Jun/2022:03:29:42 +0000] "GET /source HTTP/1.1" 200 747 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,164 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "POST /source?source_id=%22ubuntu-server%22 HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,165 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "GET /zdev HTTP/1.1" 200 180 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,165 INFO root:39 start: subiquity/Network/apply_config: silent=True
+2022-06-13 03:29:44,177 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "GET /network HTTP/1.1" 200 964 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,179 INFO aiohttp.access:233  [13/Jun/2022:03:29:44 +0000] "PUT /network/subscription?socket_path=%22/tmp/tmpqpldd25s/socket%22 HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:44,647 INFO root:39 finish: subiquity/Network/apply_config: SUCCESS: silent=True
+2022-06-13 03:29:46,860 INFO aiohttp.access:233  [13/Jun/2022:03:29:46 +0000] "POST /network HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:46,861 INFO aiohttp.access:233  [13/Jun/2022:03:29:46 +0000] "GET /proxy HTTP/1.1" 200 187 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:46,864 INFO aiohttp.access:233  [13/Jun/2022:03:29:46 +0000] "DELETE /network/subscription?socket_path=%22/tmp/tmpqpldd25s/socket%22 HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:47,910 INFO aiohttp.access:233  [13/Jun/2022:03:29:47 +0000] "POST /proxy HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:47,915 INFO aiohttp.access:233  [13/Jun/2022:03:29:47 +0000] "GET /mirror HTTP/1.1" 200 223 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:48,574 INFO curtin:1322 Validating extracted storage config components
+2022-06-13 03:29:48,785 INFO aiohttp.access:233  [13/Jun/2022:03:29:48 +0000] "POST /mirror HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:48,787 INFO aiohttp.access:233  [13/Jun/2022:03:29:48 +0000] "GET /refresh HTTP/1.1" 200 281 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:48,808 INFO aiohttp.access:233  [13/Jun/2022:03:29:48 +0000] "GET /storage/guided HTTP/1.1" 200 563 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:56,814 INFO aiohttp.access:233  [13/Jun/2022:03:29:56 +0000] "POST /storage/guided HTTP/1.1" 200 6952 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:58,517 INFO aiohttp.access:233  [13/Jun/2022:03:29:58 +0000] "POST /storage HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:58,517 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "NEEDS_CONFIRMATION", "confirming_tty": "", "error": null, "cloud_i...
+2022-06-13 03:29:58,517 INFO aiohttp.access:233  [13/Jun/2022:03:29:35 +0000] "GET /meta/status?cur=%22WAITING%22 HTTP/1.1" 200 422 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:58,519 INFO aiohttp.access:233  [13/Jun/2022:03:29:58 +0000] "GET /identity HTTP/1.1" 200 183 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:29:58,520 INFO root:39 start: subiquity/Meta/status_GET: 
+2022-06-13 03:30:01,819 INFO root:39 start: subiquity/Meta/confirm_POST: 
+2022-06-13 03:30:01,819 INFO root:39 finish: subiquity/Meta/confirm_POST: SUCCESS: 200 null
+2022-06-13 03:30:01,819 INFO aiohttp.access:233  [13/Jun/2022:03:30:01 +0000] "POST /meta/confirm?tty=%22/dev/tty1%22 HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:01,820 INFO root:39 start: subiquity/Install/install/configure_apt: configuring apt
+2022-06-13 03:30:01,830 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "RUNNING", "confirming_tty": "/dev/tty1", "error": null, "cloud_ini...
+2022-06-13 03:30:01,831 INFO aiohttp.access:233  [13/Jun/2022:03:29:58 +0000] "GET /meta/status?cur=%22NEEDS_CONFIRMATION%22 HTTP/1.1" 200 420 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:01,831 INFO aiohttp.access:233  [13/Jun/2022:03:30:01 +0000] "GET /identity HTTP/1.1" 200 258 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:01,832 INFO root:39 start: subiquity/Meta/status_GET: 
+2022-06-13 03:30:19,941 INFO aiohttp.access:233  [13/Jun/2022:03:30:19 +0000] "POST /identity HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:19,942 INFO aiohttp.access:233  [13/Jun/2022:03:30:19 +0000] "POST /ubuntu_advantage/skip HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:19,944 INFO aiohttp.access:233  [13/Jun/2022:03:30:19 +0000] "GET /ssh HTTP/1.1" 200 252 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:22,443 INFO root:39 finish: subiquity/Install/install/configure_apt: SUCCESS: configuring apt
+2022-06-13 03:30:22,443 INFO root:39 start: subiquity/Install/install/curtin_install: installing system
+2022-06-13 03:30:25,588 INFO aiohttp.access:233  [13/Jun/2022:03:30:25 +0000] "POST /ssh HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:25,591 INFO aiohttp.access:233  [13/Jun/2022:03:30:25 +0000] "GET /drivers HTTP/1.1" 200 221 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:31,038 INFO aiohttp.access:233  [13/Jun/2022:03:30:31 +0000] "POST /drivers HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:31,049 INFO aiohttp.access:233  [13/Jun/2022:03:30:31 +0000] "GET /snaplist HTTP/1.1" 200 14065 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:33,291 INFO aiohttp.access:233  [13/Jun/2022:03:30:25 +0000] "GET /drivers?wait=true HTTP/1.1" 200 219 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:30:42,209 INFO aiohttp.access:233  [13/Jun/2022:03:30:42 +0000] "POST /snaplist HTTP/1.1" 200 189 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:37:48,506 INFO root:39 finish: subiquity/Install/install/curtin_install: SUCCESS: installing system
+2022-06-13 03:37:48,510 INFO root:39 start: subiquity/Install/install/postinstall: final system configuration
+2022-06-13 03:37:48,545 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "POST_RUNNING", "confirming_tty": "/dev/tty1", "error": null, "clou...
+2022-06-13 03:37:48,556 INFO aiohttp.access:233  [13/Jun/2022:03:29:54 +0000] "GET /meta/status?cur=%22RUNNING%22 HTTP/1.1" 200 425 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:37:48,567 INFO root:39 start: subiquity/Meta/status_GET: 
+2022-06-13 03:37:50,692 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "UU_RUNNING", "confirming_tty": "/dev/tty1", "error": null, "cloud_...
+2022-06-13 03:37:50,699 INFO aiohttp.access:233  [13/Jun/2022:03:37:48 +0000] "GET /meta/status?cur=%22POST_RUNNING%22 HTTP/1.1" 200 423 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:37:50,700 INFO root:39 start: subiquity/Meta/status_GET: 
+2022-06-13 03:40:09,578 INFO root:39 finish: subiquity/Install/install/postinstall: SUCCESS: final system configuration
+2022-06-13 03:40:09,579 INFO root:39 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "DONE", "confirming_tty": "/dev/tty1", "error": null, "cloud_init_o...
+2022-06-13 03:40:09,594 INFO aiohttp.access:233  [13/Jun/2022:03:37:50 +0000] "GET /meta/status?cur=%22UU_RUNNING%22 HTTP/1.1" 200 417 "-" "Python/3.8 aiohttp/3.6.2"
+2022-06-13 03:40:09,609 INFO root:39 start: subiquity/Meta/status_GET: 

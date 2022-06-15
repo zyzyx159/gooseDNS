@@ -1,0 +1,81 @@
+2022-06-13 03:29:34,654 curtin:87 Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:35,400 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2022-06-13 03:29:35,400 curtin.reporting.finish.subiquity/Meta/status_GET:45 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "CLOUD_INIT_WAIT", "confirming_tty": "", "error": null, "cloud_init...
+2022-06-13 03:29:35,413 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2022-06-13 03:29:35,877 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.squashfs', '/tmp/tmpg8mshqg3/ubuntu-server-minimal.squashfs.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:35,885 probert.dasd:131 Probing DASD devies
+2022-06-13 03:29:35,885 probert.dasd:134 DASD devices only present on s390x, arch=x86_64
+2022-06-13 03:29:35,902 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.ubuntu-server.squashfs', '/tmp/tmpg8mshqg3/ubuntu-server-minimal.ubuntu-server.squashfs.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:35,922 curtin:87 Running command ['mount', '-o', 'lowerdir=/tmp/tmpg8mshqg3/ubuntu-server-minimal.ubuntu-server.squashfs.dir:/tmp/tmpg8mshqg3/ubuntu-server-minimal.squashfs.dir', '-t', 'overlay', 'overlay', '/tmp/tmpg8mshqg3/root.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:36,163 probert.multipath:48 Extracted multipath maps fields: ['ok']
+2022-06-13 03:29:36,163 probert.multipath:52 Failed to parse multipath maps entry: ok: __new__() missing 2 required positional arguments: 'sysfs' and 'paths'
+2022-06-13 03:29:36,165 probert.multipath:48 Extracted multipath paths fields: ['sda', 'VB6bd31e9e-257ccfae', '[orphan]', '[undef]', 'ata-3.00', '[undef]', '[undef]', '[undef]']
+2022-06-13 03:29:36,207 curtin:1296 Extracting storage config from probe data
+2022-06-13 03:29:36,207 curtin:73 /dev/sr0 is multipath device member? False
+2022-06-13 03:29:36,207 curtin:86 /dev/sr0 is multipath device partition? False
+2022-06-13 03:29:36,207 curtin:73 /dev/sda is multipath device member? False
+2022-06-13 03:29:36,207 curtin:86 /dev/sda is multipath device partition? False
+2022-06-13 03:29:36,207 curtin:61 /dev/sda is multipath device? False
+2022-06-13 03:29:36,207 curtin:86 /dev/sda is multipath device partition? False
+2022-06-13 03:29:36,207 curtin:61 /dev/sda is multipath device? False
+2022-06-13 03:29:36,215 curtin:73 /dev/sr0 is multipath device member? False
+2022-06-13 03:29:36,215 curtin:1303 Sorting extracted configurations
+2022-06-13 03:29:36,215 curtin:1322 Validating extracted storage config components
+2022-06-13 03:29:36,221 curtin:1339 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    serial: VBOX_HARDDISK_VB6bd31e9e-257ccfae
+    type: disk
+
+2022-06-13 03:29:36,221 curtin:1343 Generating storage config dependencies
+2022-06-13 03:29:36,221 curtin:1349 Merging storage config dependencies
+2022-06-13 03:29:36,221 curtin:1354 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        serial: VBOX_HARDDISK_VB6bd31e9e-257ccfae
+        type: disk
+    version: 2
+
+2022-06-13 03:29:44,139 curtin:87 Running command ['umount', '/tmp/tmpg8mshqg3/root.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:44,145 curtin:87 Running command ['umount', '/tmp/tmpg8mshqg3/ubuntu-server-minimal.ubuntu-server.squashfs.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:44,148 curtin:87 Running command ['umount', '/tmp/tmpg8mshqg3/ubuntu-server-minimal.squashfs.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:44,152 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.squashfs', '/tmp/tmp8ory91md/ubuntu-server-minimal.squashfs.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:44,156 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.ubuntu-server.squashfs', '/tmp/tmp8ory91md/ubuntu-server-minimal.ubuntu-server.squashfs.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:44,160 curtin:87 Running command ['mount', '-o', 'lowerdir=/tmp/tmp8ory91md/ubuntu-server-minimal.ubuntu-server.squashfs.dir:/tmp/tmp8ory91md/ubuntu-server-minimal.squashfs.dir', '-t', 'overlay', 'overlay', '/tmp/tmp8ory91md/root.dir'] with allowed return codes [0] (capture=True)
+2022-06-13 03:29:48,416 probert.dasd:131 Probing DASD devies
+2022-06-13 03:29:48,416 probert.dasd:134 DASD devices only present on s390x, arch=x86_64
+2022-06-13 03:29:48,548 probert.multipath:48 Extracted multipath maps fields: ['ok']
+2022-06-13 03:29:48,548 probert.multipath:52 Failed to parse multipath maps entry: ok: __new__() missing 2 required positional arguments: 'sysfs' and 'paths'
+2022-06-13 03:29:48,551 probert.multipath:48 Extracted multipath paths fields: ['sda', 'VB6bd31e9e-257ccfae', '[orphan]', '[undef]', 'ata-3.00', '[undef]', '[undef]', '[undef]']
+2022-06-13 03:29:48,567 curtin:1296 Extracting storage config from probe data
+2022-06-13 03:29:48,567 curtin:73 /dev/sr0 is multipath device member? False
+2022-06-13 03:29:48,567 curtin:86 /dev/sr0 is multipath device partition? False
+2022-06-13 03:29:48,567 curtin:73 /dev/sda is multipath device member? False
+2022-06-13 03:29:48,567 curtin:86 /dev/sda is multipath device partition? False
+2022-06-13 03:29:48,567 curtin:61 /dev/sda is multipath device? False
+2022-06-13 03:29:48,567 curtin:86 /dev/sda is multipath device partition? False
+2022-06-13 03:29:48,567 curtin:61 /dev/sda is multipath device? False
+2022-06-13 03:29:48,574 curtin:73 /dev/sr0 is multipath device member? False
+2022-06-13 03:29:48,574 curtin:1303 Sorting extracted configurations
+2022-06-13 03:29:48,574 curtin:1322 Validating extracted storage config components
+2022-06-13 03:29:48,580 curtin:1339 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    serial: VBOX_HARDDISK_VB6bd31e9e-257ccfae
+    type: disk
+
+2022-06-13 03:29:48,580 curtin:1343 Generating storage config dependencies
+2022-06-13 03:29:48,580 curtin:1349 Merging storage config dependencies
+2022-06-13 03:29:48,580 curtin:1354 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        serial: VBOX_HARDDISK_VB6bd31e9e-257ccfae
+        type: disk
+    version: 2
+

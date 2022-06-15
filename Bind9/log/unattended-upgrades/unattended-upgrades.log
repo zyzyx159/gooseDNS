@@ -1,0 +1,13 @@
+2022-06-13 03:37:51,347 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2022-06-13 03:37:51,347 INFO Starting unattended upgrades script
+2022-06-13 03:37:51,348 INFO Allowed origins are: o=Ubuntu,a=jammy, o=Ubuntu,a=jammy-security, o=UbuntuESMApps,a=jammy-apps-security, o=UbuntuESM,a=jammy-infra-security, o=Ubuntu,a=jammy, o=Ubuntu,a=jammy-security, o=UbuntuESMApps,a=jammy-apps-security, o=UbuntuESM,a=jammy-infra-security
+2022-06-13 03:37:51,348 INFO Initial blacklist: 
+2022-06-13 03:37:51,348 INFO Initial whitelist (not strict): 
+2022-06-13 03:38:14,295 INFO Packages that will be upgraded: apport bind9-dnsutils bind9-host bind9-libs curl distro-info-data dpkg e2fsprogs git git-man libcom-err2 libcurl3-gnutls libcurl4 libext2fs2 libfribidi0 libldap-2.5-0 libldap-common libntfs-3g89 libpcre3 libss2 libssl3 libxml2 logrotate logsave needrestart networkd-dispatcher ntfs-3g openssl python3-apport python3-problem-report python3-twisted rsyslog
+2022-06-13 03:38:14,296 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2022-06-13 03:39:59,112 INFO All upgrades installed
+2022-06-13 11:42:30,347 INFO Starting unattended upgrades script
+2022-06-13 11:42:30,348 INFO Allowed origins are: o=Ubuntu,a=jammy, o=Ubuntu,a=jammy-security, o=UbuntuESMApps,a=jammy-apps-security, o=UbuntuESM,a=jammy-infra-security
+2022-06-13 11:42:30,348 INFO Initial blacklist: 
+2022-06-13 11:42:30,348 INFO Initial whitelist (not strict): 
+2022-06-13 11:42:30,924 INFO No packages found that can be upgraded unattended and no pending auto-removals

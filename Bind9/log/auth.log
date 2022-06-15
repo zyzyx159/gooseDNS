@@ -1,0 +1,339 @@
+Jun 13 03:41:41 template useradd[771]: new group: name=zyzyx, GID=1000
+Jun 13 03:41:41 template useradd[771]: new user: name=zyzyx, UID=1000, GID=1000, home=/home/zyzyx, shell=/bin/bash, from=none
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to group 'adm'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to group 'cdrom'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to group 'sudo'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to group 'dip'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to group 'plugdev'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to group 'lxd'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to shadow group 'adm'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to shadow group 'cdrom'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to shadow group 'sudo'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to shadow group 'dip'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to shadow group 'plugdev'
+Jun 13 03:41:41 template useradd[771]: add 'zyzyx' to shadow group 'lxd'
+Jun 13 03:41:41 template systemd-logind[803]: New seat seat0.
+Jun 13 03:41:41 template systemd-logind[803]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 03:41:41 template systemd-logind[803]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 03:41:41 template systemd-logind[803]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 03:41:42 template sshd[959]: Server listening on 0.0.0.0 port 22.
+Jun 13 03:41:42 template sshd[959]: Server listening on :: port 22.
+Jun 13 03:41:42 template useradd[1143]: new user: name=lxd, UID=999, GID=100, home=/var/snap/lxd/common/lxd, shell=/bin/false, from=none
+Jun 13 03:41:45 template sshd[959]: Received signal 15; terminating.
+Jun 13 03:41:45 template sshd[1313]: Server listening on 0.0.0.0 port 22.
+Jun 13 03:41:45 template sshd[1313]: Server listening on :: port 22.
+Jun 13 03:42:07 template login[878]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 03:42:07 template systemd-logind[803]: New session 1 of user zyzyx.
+Jun 13 03:42:07 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 03:42:42 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/apt update
+Jun 13 03:42:42 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 03:42:43 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 03:42:49 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Jun 13 03:42:49 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 03:45:55 template systemd-logind[24403]: New seat seat0.
+Jun 13 03:45:55 template systemd-logind[24403]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 03:45:55 template systemd-logind[24403]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 03:45:55 template systemd-logind[24403]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 03:45:55 template sshd[1313]: Received signal 15; terminating.
+Jun 13 03:45:55 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 03:45:55 template systemd-logind[24403]: New session 1 of user zyzyx.
+Jun 13 03:45:55 template sshd[24451]: Server listening on 0.0.0.0 port 22.
+Jun 13 03:45:55 template sshd[24451]: Server listening on :: port 22.
+Jun 13 03:45:55 template systemd-logind[24441]: New seat seat0.
+Jun 13 03:45:55 template systemd-logind[24441]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 03:45:55 template systemd-logind[24441]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 03:45:55 template systemd-logind[24441]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 03:45:55 template systemd-logind[24441]: New session 1 of user zyzyx.
+Jun 13 03:45:56 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 03:48:48 template systemd-logind[24441]: Creating /run/nologin, blocking further logins...
+Jun 13 03:49:48 template systemd-logind[24441]: System is powering down.
+Jun 13 03:51:12 template sshd[675]: Server listening on 0.0.0.0 port 22.
+Jun 13 03:51:12 template sshd[675]: Server listening on :: port 22.
+Jun 13 03:51:12 template systemd-logind[633]: New seat seat0.
+Jun 13 03:51:13 template systemd-logind[633]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 03:51:13 template systemd-logind[633]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 03:51:13 template systemd-logind[633]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 03:51:30 template login[640]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 03:51:30 template systemd-logind[633]: New session 1 of user zyzyx.
+Jun 13 03:51:30 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 03:51:38 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Jun 13 03:51:38 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 03:52:13 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 04:17:01 template CRON[1457]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 13 04:17:01 template CRON[1457]: pam_unix(cron:session): session closed for user root
+Jun 13 04:48:19 template systemd-logind[633]: Power key pressed.
+Jun 13 04:48:19 template systemd-logind[633]: Powering Off...
+Jun 13 04:48:19 template systemd-logind[633]: System is powering down.
+Jun 13 11:37:10 template sshd[673]: Server listening on 0.0.0.0 port 22.
+Jun 13 11:37:10 template sshd[673]: Server listening on :: port 22.
+Jun 13 11:37:11 template systemd-logind[633]: New seat seat0.
+Jun 13 11:37:11 template systemd-logind[633]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 11:37:11 template systemd-logind[633]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 11:37:11 template systemd-logind[633]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 11:37:25 template login[640]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 11:37:25 template systemd-logind[633]: New session 1 of user zyzyx.
+Jun 13 11:37:25 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 11:37:54 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/apt update
+Jun 13 11:37:54 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 11:37:57 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 11:37:57 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Jun 13 11:37:57 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 11:37:57 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 11:38:11 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Jun 13 11:38:11 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 11:38:11 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 11:42:22 template systemd-logind[633]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 11:42:22 template systemd-logind[633]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 11:42:22 template systemd-logind[633]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 11:50:13 template sudo:    zyzyx : TTY=tty1 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/andsible-zyzyx.git
+Jun 13 11:50:13 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 11:51:12 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 11:51:59 template systemd-logind[633]: Power key pressed.
+Jun 13 11:51:59 template systemd-logind[633]: Powering Off...
+Jun 13 11:51:59 template systemd-logind[633]: System is powering down.
+Jun 13 11:54:22 template sshd[686]: Server listening on 0.0.0.0 port 22.
+Jun 13 11:54:22 template sshd[686]: Server listening on :: port 22.
+Jun 13 11:54:22 template systemd-logind[644]: New seat seat0.
+Jun 13 11:54:22 template systemd-logind[644]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 11:54:22 template systemd-logind[644]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 11:54:22 template systemd-logind[644]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 11:54:31 template login[651]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 11:54:31 template systemd-logind[644]: New session 1 of user zyzyx.
+Jun 13 11:54:31 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 11:55:40 template systemd-logind[644]: Power key pressed.
+Jun 13 11:55:40 template systemd-logind[644]: Powering Off...
+Jun 13 11:55:40 template systemd-logind[644]: System is powering down.
+Jun 13 11:56:16 template sshd[685]: Server listening on 0.0.0.0 port 22.
+Jun 13 11:56:16 template sshd[685]: Server listening on :: port 22.
+Jun 13 11:56:16 template systemd-logind[643]: New seat seat0.
+Jun 13 11:56:16 template systemd-logind[643]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 11:56:16 template systemd-logind[643]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 11:56:16 template systemd-logind[643]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 11:56:24 template login[650]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 11:56:24 template systemd-logind[643]: New session 1 of user zyzyx.
+Jun 13 11:56:24 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 11:56:40 template systemd-logind[643]: Power key pressed.
+Jun 13 11:56:40 template systemd-logind[643]: Powering Off...
+Jun 13 11:56:40 template systemd-logind[643]: System is powering down.
+Jun 13 11:58:07 template sshd[685]: Server listening on 0.0.0.0 port 22.
+Jun 13 11:58:07 template sshd[685]: Server listening on :: port 22.
+Jun 13 11:58:07 template systemd-logind[642]: New seat seat0.
+Jun 13 11:58:07 template systemd-logind[642]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 11:58:07 template systemd-logind[642]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 11:58:07 template systemd-logind[642]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 11:58:17 template login[650]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 11:58:17 template systemd-logind[642]: New session 1 of user zyzyx.
+Jun 13 11:58:17 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 11:59:49 template systemd-logind[642]: Power key pressed.
+Jun 13 11:59:49 template systemd-logind[642]: Powering Off...
+Jun 13 11:59:49 template systemd-logind[642]: System is powering down.
+Jun 13 12:01:28 template sshd[685]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:01:28 template sshd[685]: Server listening on :: port 22.
+Jun 13 12:01:28 template systemd-logind[643]: New seat seat0.
+Jun 13 12:01:28 template systemd-logind[643]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:01:28 template systemd-logind[643]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:01:28 template systemd-logind[643]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 12:01:37 template login[649]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 12:01:37 template systemd-logind[643]: New session 1 of user zyzyx.
+Jun 13 12:01:37 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+                                                                                                                                                                                                                                                                                                                                 Jun 13 12:05:40 template sshd[679]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:05:40 template sshd[679]: Server listening on :: port 22.
+Jun 13 12:05:40 template systemd-logind[642]: New seat seat0.
+Jun 13 12:05:40 template systemd-logind[642]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:05:40 template systemd-logind[642]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:05:40 template systemd-logind[642]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+                                                                                                                                                                                                                                                                                                                      Jun 13 12:06:33 template sshd[683]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:06:33 template sshd[683]: Server listening on :: port 22.
+Jun 13 12:06:33 template systemd-logind[642]: New seat seat0.
+Jun 13 12:06:33 template systemd-logind[642]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:06:33 template systemd-logind[642]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:06:33 template systemd-logind[642]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+                                                                                                                                                                                                                                                                                                                      Jun 13 12:07:23 template sshd[685]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:07:23 template sshd[685]: Server listening on :: port 22.
+Jun 13 12:07:24 template systemd-logind[642]: New seat seat0.
+Jun 13 12:07:24 template systemd-logind[642]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:07:24 template systemd-logind[642]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:07:24 template systemd-logind[642]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+                                                                                                                                                                                                                                                                                                                      Jun 13 12:09:09 template sshd[688]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:09:09 template sshd[688]: Server listening on :: port 22.
+Jun 13 12:09:09 template systemd-logind[645]: New seat seat0.
+Jun 13 12:09:09 template systemd-logind[645]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:09:09 template systemd-logind[645]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:09:09 template systemd-logind[645]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 12:09:19 template login[656]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 12:09:19 template systemd-logind[645]: New session 1 of user zyzyx.
+Jun 13 12:09:19 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:09:57 template sshd[964]: Accepted password for zyzyx from 192.168.1.135 port 54617 ssh2
+Jun 13 12:09:57 template sshd[964]: pam_unix(sshd:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:09:57 template systemd-logind[645]: New session 3 of user zyzyx.
+Jun 13 12:13:17 template sudo: pam_unix(sudo:auth): authentication failure; logname=zyzyx uid=1000 euid=0 tty=/dev/pts/0 ruser=zyzyx rhost=  user=zyzyx
+Jun 13 12:13:21 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx/.ssh ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git
+Jun 13 12:13:21 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:13:24 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:17:01 template CRON[1125]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun 13 12:17:01 template CRON[1125]: pam_unix(cron:session): session closed for user root
+Jun 13 12:19:24 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx/.ssh ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git local.yml
+Jun 13 12:19:24 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:19:27 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:21:55 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx/git/ansible-zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git local.yml
+Jun 13 12:21:55 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:21:58 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:24:10 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx/git/ansible-zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git local.yml
+Jun 13 12:24:10 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:24:13 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:28:36 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx/git/ansible-zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git local.yml
+Jun 13 12:28:36 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:28:58 template sudo:     root : TTY=pts/1 ; PWD=/root/.ansible/pull/template ; USER=zyzyx ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lhfmnnylkhfxfnlhhtzcphletsvtohby ; /usr/bin/python3 /var/tmp/ansible-tmp-1655123338.1973858-3321-62093563799502/AnsiballZ_command.py
+Jun 13 12:28:58 template sudo: pam_unix(sudo:session): session opened for user zyzyx(uid=1000) by zyzyx(uid=0)
+Jun 13 12:28:59 template sudo: pam_unix(sudo:session): session closed for user zyzyx
+Jun 13 12:29:07 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:32:54 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git --ask-become-pass local.yml
+Jun 13 12:32:54 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:33:02 template sudo:     root : TTY=pts/1 ; PWD=/root/.ansible/pull/template ; USER=zyzyx ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zwyekldbfqzfdgzoptqlnhaxtwgxoddy ; /usr/bin/python3 /var/tmp/ansible-tmp-1655123582.789412-4349-42142230225060/AnsiballZ_command.py
+Jun 13 12:33:02 template sudo: pam_unix(sudo:session): session opened for user zyzyx(uid=1000) by zyzyx(uid=0)
+Jun 13 12:33:02 template sudo: pam_unix(sudo:session): session closed for user zyzyx
+Jun 13 12:33:04 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:35:36 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/rm -R .oh-my-zsh -y
+Jun 13 12:35:36 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:35:36 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:35:41 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/rm -R .oh-my-zsh
+Jun 13 12:35:41 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:35:41 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:35:54 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git --ask-become-pass local.yml
+Jun 13 12:35:54 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:36:04 template sudo:     root : TTY=pts/1 ; PWD=/root/.ansible/pull/template ; USER=zyzyx ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-accaorhgeondrkyrazktowkngyyjteam ; /usr/bin/python3 /var/tmp/ansible-tmp-1655123764.3052218-5060-41712884385379/AnsiballZ_command.py
+Jun 13 12:36:04 template sudo: pam_unix(sudo:session): session opened for user zyzyx(uid=1000) by zyzyx(uid=0)
+Jun 13 12:36:05 template sudo: pam_unix(sudo:session): session closed for user zyzyx
+Jun 13 12:36:12 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:37:43 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/rm -R .oh-my-zsh
+Jun 13 12:37:43 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:37:43 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:37:48 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git --ask-become-pass local.yml
+Jun 13 12:37:48 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:37:57 template sudo:     root : TTY=pts/1 ; PWD=/root/.ansible/pull/template ; USER=zyzyx ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kxskacrbtihezihmxynlbsmxcclteadz ; /usr/bin/python3 /var/tmp/ansible-tmp-1655123877.795884-6085-120001363029956/AnsiballZ_command.py
+Jun 13 12:37:57 template sudo: pam_unix(sudo:session): session opened for user zyzyx(uid=1000) by zyzyx(uid=0)
+Jun 13 12:37:58 template sudo: pam_unix(sudo:session): session closed for user zyzyx
+Jun 13 12:38:05 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:38:36 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/rm -R .oh-my-zsh
+Jun 13 12:38:36 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:38:36 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:38:39 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx ; USER=root ; COMMAND=/usr/bin/ansible-pull -U https://github.com/zyzyx159/ansible-zyzyx.git --ask-become-pass local.yml
+Jun 13 12:38:39 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:38:48 template sudo:     root : TTY=pts/1 ; PWD=/root/.ansible/pull/template ; USER=zyzyx ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbpbemfzblmidkduqawklgipsyxmojnz ; /usr/bin/python3 /var/tmp/ansible-tmp-1655123928.0565338-7111-176200501649255/AnsiballZ_command.py
+Jun 13 12:38:48 template sudo: pam_unix(sudo:session): session opened for user zyzyx(uid=1000) by zyzyx(uid=0)
+Jun 13 12:38:48 template sudo: pam_unix(sudo:session): session closed for user zyzyx
+Jun 13 12:38:55 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:43:16 template sudo:    zyzyx : TTY=pts/0 ; PWD=/home/zyzyx/Git/ansible-zyzyx/Files ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+Jun 13 12:43:16 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:43:16 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:43:16 template sshd[964]: pam_unix(sshd:session): session closed for user zyzyx
+Jun 13 12:43:33 template sshd[687]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:43:33 template sshd[687]: Server listening on :: port 22.
+Jun 13 12:43:33 template systemd-logind[644]: New seat seat0.
+Jun 13 12:43:33 template systemd-logind[644]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:43:33 template systemd-logind[644]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:43:33 template systemd-logind[644]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 12:43:42 template login[651]: pam_unix(login:session): session opened for user zyzyx(uid=1000) by LOGIN(uid=0)
+Jun 13 12:43:42 template systemd-logind[644]: New session 1 of user zyzyx.
+Jun 13 12:43:42 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:43:56 template sshd[1042]: Accepted password for zyzyx from 192.168.1.135 port 54776 ssh2
+Jun 13 12:43:56 template sshd[1042]: pam_unix(sshd:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:43:56 template systemd-logind[644]: New session 3 of user zyzyx.
+Jun 13 12:49:26 template sudo:    zyzyx : TTY=pts/0 ; PWD=/usr/share/fonts/truetype ; USER=root ; COMMAND=/usr/bin/apt-get install bind9 bind9utils bind9-doc dnsutils
+Jun 13 12:49:26 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 12:49:30 template groupadd[2300]: group added to /etc/group: name=bind, GID=118
+Jun 13 12:49:30 template groupadd[2300]: group added to /etc/gshadow: name=bind
+Jun 13 12:49:30 template groupadd[2300]: new group: name=bind, GID=118
+Jun 13 12:49:30 template useradd[2308]: new user: name=bind, UID=113, GID=118, home=/var/cache/bind, shell=/usr/sbin/nologin, from=/dev/pts/2
+Jun 13 12:49:30 template usermod[2315]: change user 'bind' password
+Jun 13 12:49:30 template chage[2322]: changed password expiry for bind
+Jun 13 12:49:33 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 12:49:36 template sshd[1089]: Received disconnect from 192.168.1.135 port 54776:11: disconnected by user
+Jun 13 12:49:36 template sshd[1089]: Disconnected from user zyzyx 192.168.1.135 port 54776
+Jun 13 12:49:36 template sshd[1042]: pam_unix(sshd:session): session closed for user zyzyx
+Jun 13 12:49:36 template systemd-logind[644]: Session 3 logged out. Waiting for processes to exit.
+Jun 13 12:49:36 template systemd-logind[644]: Removed session 3.
+Jun 13 12:49:41 template systemd-logind[644]: Power key pressed.
+Jun 13 12:49:41 template systemd-logind[644]: Powering Off...
+Jun 13 12:49:41 template systemd-logind[644]: System is powering down.
+Jun 13 12:50:31 template sshd[688]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:50:31 template sshd[688]: Server listening on :: port 22.
+Jun 13 12:50:31 template systemd-logind[645]: New seat seat0.
+Jun 13 12:50:31 template systemd-logind[645]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:50:31 template systemd-logind[645]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:50:31 template systemd-logind[645]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 12:50:38 template sshd[850]: Accepted password for zyzyx from 192.168.1.135 port 54857 ssh2
+Jun 13 12:50:38 template sshd[850]: pam_unix(sshd:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:50:38 template systemd-logind[645]: New session 1 of user zyzyx.
+Jun 13 12:50:38 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:53:04 template sshd[955]: Received disconnect from 192.168.1.135 port 54857:11: disconnected by user
+Jun 13 12:53:04 template sshd[955]: Disconnected from user zyzyx 192.168.1.135 port 54857
+Jun 13 12:53:04 template sshd[850]: pam_unix(sshd:session): session closed for user zyzyx
+Jun 13 12:53:04 template systemd-logind[645]: Session 1 logged out. Waiting for processes to exit.
+Jun 13 12:53:04 template systemd-logind[645]: Removed session 1.
+Jun 13 12:53:07 template systemd-logind[645]: Power key pressed.
+Jun 13 12:53:07 template systemd-logind[645]: Powering Off...
+Jun 13 12:53:07 template systemd-logind[645]: System is powering down.
+Jun 13 12:54:44 template sshd[688]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:54:44 template sshd[688]: Server listening on :: port 22.
+Jun 13 12:54:44 template systemd-logind[644]: New seat seat0.
+Jun 13 12:54:44 template systemd-logind[644]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:54:44 template systemd-logind[644]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:54:44 template systemd-logind[644]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 12:54:53 template sshd[851]: Accepted password for zyzyx from 192.168.1.135 port 63157 ssh2
+Jun 13 12:54:53 template sshd[851]: pam_unix(sshd:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:54:53 template systemd-logind[644]: New session 1 of user zyzyx.
+Jun 13 12:54:53 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:55:03 template systemd-logind[644]: Power key pressed.
+Jun 13 12:55:03 template systemd-logind[644]: Powering Off...
+Jun 13 12:55:03 template systemd-logind[644]: System is powering down.
+Jun 13 12:55:03 template sshd[851]: pam_unix(sshd:session): session closed for user zyzyx
+Jun 13 12:55:03 template sshd[851]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Jun 13 12:56:26 template sshd[690]: Server listening on 0.0.0.0 port 22.
+Jun 13 12:56:26 template sshd[690]: Server listening on :: port 22.
+Jun 13 12:56:26 template systemd-logind[643]: New seat seat0.
+Jun 13 12:56:26 template systemd-logind[643]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 13 12:56:26 template systemd-logind[643]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jun 13 12:56:26 template systemd-logind[643]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jun 13 12:57:40 template sshd[860]: Accepted password for zyzyx from 192.168.1.135 port 63181 ssh2
+Jun 13 12:57:40 template sshd[860]: pam_unix(sshd:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 12:57:40 template systemd-logind[643]: New session 1 of user zyzyx.
+Jun 13 12:57:40 template systemd: pam_unix(systemd-user:session): session opened for user zyzyx(uid=1000) by (uid=0)
+Jun 13 13:02:22 template sudo:    zyzyx : TTY=pts/0 ; PWD=/dev ; USER=root ; COMMAND=/usr/sbin/fdisk -l
+Jun 13 13:02:22 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:02:22 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:03:08 template sudo:    zyzyx : TTY=pts/0 ; PWD=/mnt ; USER=root ; COMMAND=/usr/bin/mount /dev/sdb1 /mnt
+Jun 13 13:03:08 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:03:09 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:03:59 template sudo:    zyzyx : TTY=pts/0 ; PWD=/mnt ; USER=root ; COMMAND=/usr/bin/mkdir bind
+Jun 13 13:03:59 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:04:14 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:05:30 template sudo:    zyzyx : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp bind /mnt/bind
+Jun 13 13:05:30 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:05:30 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:05:40 template sudo:    zyzyx : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp -rbind /mnt/bind
+Jun 13 13:05:40 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:05:40 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:05:46 template sudo:    zyzyx : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp -r bind /mnt/bind
+Jun 13 13:05:46 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:05:46 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:06:36 template sudo:    zyzyx : TTY=pts/0 ; PWD=/var/cache ; USER=root ; COMMAND=/usr/bin/cp -r bind
+Jun 13 13:06:36 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:06:36 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:06:45 template sudo:    zyzyx : TTY=pts/0 ; PWD=/var/cache ; USER=root ; COMMAND=/usr/bin/cp -r bind /mnt/bind
+Jun 13 13:06:45 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:06:45 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:07:29 template sudo:    zyzyx : TTY=pts/0 ; PWD=/mnt/bind ; USER=root ; COMMAND=/usr/bin/rm -R bind
+Jun 13 13:07:29 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:07:29 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:08:10 template sudo:    zyzyx : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp -r bind /mnt/bind/config
+Jun 13 13:08:10 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:08:10 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:08:48 template sudo:    zyzyx : TTY=pts/0 ; PWD=/var/cache ; USER=root ; COMMAND=/usr/bin/cp -r bind /mnt/bind/working
+Jun 13 13:08:48 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:08:48 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:09:23 template sudo:    zyzyx : TTY=pts/0 ; PWD=/var/cache ; USER=root ; COMMAND=/usr/bin/cp -r /var/lib/bind /mnt/bind/zones
+Jun 13 13:09:23 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
+Jun 13 13:09:23 template sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 13:09:52 template sudo:    zyzyx : TTY=pts/0 ; PWD=/var/cache ; USER=root ; COMMAND=/usr/bin/cp -r /var/log /mnt/bind/log
+Jun 13 13:09:52 template sudo: pam_unix(sudo:session): session opened for user root(uid=0) by zyzyx(uid=1000)
