@@ -1,3 +1,5 @@
-output: zyzyx@barqu.xyz:/home/zyzyx/test.txt
+host: barqu.xyz
+output: /home/zyzyx/test.txt
 sourceURL: http://barqu.xyz:8000
+userName: zyzyx
 wanIP: 70.178.177.175
